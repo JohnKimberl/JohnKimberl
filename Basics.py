@@ -2,7 +2,7 @@ user= input("Enter Your Name:")
 if user.isdigit():
   print(f"Hello {user}")
 else: 
-  print("Enter a valid name")
+  print(f"Hello {user}"))
   
 operator= input ("Enter a operator (+ - * /):")
 num1 = float(input("Enter the first number: "))
