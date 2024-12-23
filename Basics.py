@@ -1,6 +1,6 @@
 user= input("Enter Your Name:")
 if user.isdigit():
-  print(f"Hello {user}")
+  print("Enter valid name")
 else: 
   print(f"Hello {user}"))
   
