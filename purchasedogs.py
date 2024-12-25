@@ -1,6 +1,6 @@
 # List to store purchased dogs
 userchoice = input("Would you like to buy dogs? (y/n): ").lower()
-if userchoice != "y":
+if userchoice != "y" or "yes":
     print("You have successfully exited the program.")
     exit()
 
