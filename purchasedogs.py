@@ -3,10 +3,10 @@ purchased_dogs = []
 
 # List of available dogs and their price ranges
 dog_breeds = {
-    "Labrador": (500, 1500),
-    "Bulldog": (600, 2000),
-    "Beagle": (300, 1200),
-    "Poodle": (800, 2500),
+    "Labrador": (500, 800, 1500),
+    "Bulldog": (600, 1200, 2000),
+    "Beagle": (300,500, 800, 1200),
+    "Poodle": (800,1000, 1500, 2000 2500),
     "Golden Retriever": (700, 1800),
 }
 
@@ -25,7 +25,7 @@ dog_stores = [
 def display_available_dogs():
     print("\nAvailable Dog Breeds and Price Ranges:")
     for breed, price_range in dog_breeds.items():
-        print(f"{breed}: ${price_range[0]} - ${price_range[1]}")
+        print(f"{breed}: ${price_range[0]} - ${price_range[2]}")
 
 # Function to display online stores and prices for a specific breed
 def display_store_prices(breed):
